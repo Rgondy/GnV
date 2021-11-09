@@ -1,0 +1,216 @@
+*{
+  margin:0;
+  padding: 0;
+
+}
+html{
+  background-color: #FFF;
+  color:#555;
+  font-family:"Lato","Verdana";
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  scroll-behavior: smooth;
+}
+header{
+  min-height: 100vh;
+  background-image:linear-gradient(rgba(20, 20, 20, 0.70 ) ,rgba(20, 20, 20, 0.70 )), url(../img/bg1.jpg);
+  background-position: center,bottom;
+  background-size: fill;
+}
+.logo{
+  margin-top: 20px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.navcon{
+  background-color: transparent;
+}
+.navitem{
+  text-transform: uppercase;
+  font-size: 90%;
+  letter-spacing: 1px;
+  transition: 0.5s
+
+}
+.navitem:hover{
+border-bottom:2px solid #ffffff;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color:#d1d1d1;
+  font-weight: bold;
+ }
+ .header-text{
+   font-family: "Lato","Verdana";
+   background-color: transparent;
+   color: #FFF;
+ }
+ .Headermain{
+   font-size: 2rem;
+   text-transform: uppercase;
+   letter-spacing: 4px;
+   word-spacing: 5px;
+   margin-bottom: 75px;
+   margin-top: 100px;
+ }
+ .btn:link,
+ .btn:visited{
+   border: 5px solid #ece3e2;
+   border-radius: 50px;
+   text-decoration: none;
+   margin-left: 275px;
+   color:#000000;
+ }
+ .btn-full:link,
+ .btn-full:visited{
+   background-color: #9f9e9c;
+   transition: 0.5s;
+ }
+ .btn-full:hover,
+ .btn-full:active{
+   background-color: #ffffff;
+   transition: 0.5s;
+ }
+ .btn-ghost:link,
+ .btn-ghost:visited{
+  color: #000000;
+   transition: 0.5s;
+
+ }
+ .btn-ghost:hover,
+ .btn-ghost:active{
+   background-color: #ece3e2;
+   color:#000000;
+   transition: 0.5s;
+
+ }
+ .section1{
+   min-height: 101vh;
+   background-image:linear-gradient(rgba(220, 220, 220, 0.70 ) ,rgba(220, 220, 220, 0.70 )), url(../img/fbg.jpg);
+   background-position: center,top;
+   background-size: cover;
+ }
+ .cardcon{
+   background-color: #FFF;
+   min-height: 620px;
+   padding:30px;
+   -webkit-box-shadow: 4px 9px 36px -2px rgba(0,0,0,0.75);
+   -moz-box-shadow: 4px 9px 36px -2px rgba(0,0,0,0.75);
+   box-shadow: 4px 9px 36px -2px rgba(0,0,0,0.75);
+ }
+ .card h3{
+   padding:20px;
+   text-transform: uppercase;
+   font-size: 80%;
+   text-align: center;
+
+ }
+ .card h4{
+   text-align: center;
+   color: #000000;
+   padding: 20px;
+   text-transform: uppercase;
+   font-size: 70%;
+    margin-bottom: -20px;
+ }
+ .card p{
+   font-size: 70%;
+ }
+.btn-Card:link,
+.btn-Card:visited{
+ color: #000000;
+ border:1px solid #6f6f6f;
+  transition: 0.5s;
+  border-radius: 35px;
+  font-size: 70%;
+  padding top:5px 15px;
+  margin-left: 30%;
+
+
+}
+.btn-Card:hover,
+.btn-Card:active{
+  background-color: #6f6f6f;
+  transition: 0.5s;
+}
+.section2{
+  min-height: 90vh;
+  background-image:linear-gradient(rgba(20, 20, 20, 0.70 ) ,rgba(20, 20, 20, 0.70 )), url(../img/cp.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.Reviews{
+  padding-top:400px;
+  text-align: left;
+  font-size: :200%;
+  color:#000000;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  margin-bottom: 30px;
+}
+.OTC-name{
+  font-size: 120%;
+  color: #ececec;
+}
+.OTC-p{
+  font-size: 70%;
+  color: #ececec;
+
+}
+footer{
+min-height: 10vh;
+  background-color:#1c1c1c;
+}
+.ft{
+  color:#FFF;
+  font-size: 60%;
+  padding:10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.ft2{
+  font-size: 100%;
+  color:#FFF;
+  padding:20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.ft2 i{
+  font-size: 100%;
+  color:#909090;
+  margin-right: 10px;
+}
+.rtbutton{
+  position: fixed;
+  bottom:20px;
+  right:10px;
+  z-index: 99;
+}
+.rtbutton a:link,
+.rtbutton a:visited{
+color:#8e8e8e;
+}
+@media (max-width:820px){
+  .navcon{
+    background-color: #1c1c1c;
+  }
+  .btn{
+    font-size: 0.8rem;
+  }
+  .hear-text{
+    padding-top:0;
+    margin-bottom: 0;
+  }
+  .Headermain{
+    font-size: 1.5rem;
+  }
+  .ft2{
+    font-size: 100%;
+    text-align: center;
+
+  }
+  .ft2 i{
+    font-size: 70%;
+
+}
+}

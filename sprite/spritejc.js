@@ -5,7 +5,6 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 var img = [];
 img.length = 9;
-
 for(var i = 1 ; i < img.length ; i++){
     img[i] = new Image();
     img[i].src = 'Run (' + i.toString() + ').png';
